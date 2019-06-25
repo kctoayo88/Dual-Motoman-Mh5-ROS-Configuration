@@ -1,0 +1,13 @@
+controller_list:
+  - name: ""
+    action_ns: joint_trajectory_action
+    type: FollowJointTrajectory
+    joints: [r1_joint_s, r1_joint_l, r1_joint_u, r1_joint_r, r1_joint_b, r1_joint_t, r2_joint_s, r2_joint_l, r2_joint_u, r2_joint_r, r2_joint_b, r2_joint_t]
+  - name: mh5/r1
+    action_ns: joint_trajectory_action
+    type: FollowJointTrajectory
+    joints: [r1_joint_s, r1_joint_l, r1_joint_u, r1_joint_r, r1_joint_b, r1_joint_t]
+  - name: mh5/r2
+    action_ns: joint_trajectory_action
+    type: FollowJointTrajectory
+    joints: [r2_joint_s, r2_joint_l, r2_joint_u, r2_joint_r, r2_joint_b, r2_joint_t]

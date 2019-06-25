@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: motoman_mh5_support
+    relative_path: urdf/dual_motoman_mh5/dual_motoman_mh5.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/motoman_mh5.srdf
+  CONFIG:
+    author_name: cyc
+    author_email: cyc@cyc.cyc
+    generated_timestamp: 1561438164

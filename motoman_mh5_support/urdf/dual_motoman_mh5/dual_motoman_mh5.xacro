@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<robot name="motoman_mh5" xmlns:xacro="http://ros.org/wiki/xacro">
+
+<link name="world" />
+
+<xacro:include filename="/home/cyc/catkin_ws/src/motoman/motoman_mh5_support/urdf/dual_motoman_mh5/r1_mh5.xacro" />
+<xacro:include filename="/home/cyc/catkin_ws/src/motoman/motoman_mh5_support/urdf/dual_motoman_mh5/r2_mh5.xacro" />
+
+
+<joint name="world_r1_robot_joint" type="fixed">
+	<parent link="world" />
+	<child link = "r1_base_link" />
+	<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+</joint>
+<joint name="world_r2_robot_joint" type="fixed">
+	<parent link="world" />
+	<child link = "r2_base_link" />
+	<origin xyz="1.2 0.0 0.0" rpy="0.0 0.0 3.1415926" />
+</joint>
+
+</robot>
