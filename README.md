@@ -1,5 +1,5 @@
 # Dual_Motoman_Mh5_ROS_Configuration
-The basic ROS configuration of dual motoman mh5
+The basic ROS configuration of dual motoman mh5.
 
 ## How to launch it
 
